@@ -8,6 +8,7 @@
     --surface-card: #1f293d;
     --surface-glass: rgba(31, 41, 55, 0.65);
     --border-color: rgba(255, 255, 255, 0.1);
+    --nav-bg: rgba(11, 15, 25, 0.85);
     
     --text-primary: #f9fafb;
     --text-secondary: #9ca3af;
@@ -43,10 +44,11 @@
     --surface-dark: #ffffff;
     --surface-card: #f1f5f9;
     --surface-glass: rgba(255, 255, 255, 0.85);
-    --border-color: rgba(0, 0, 0, 0.1);
+    --border-color: rgba(0, 0, 0, 0.12);
+    --nav-bg: rgba(248, 250, 252, 0.92);
     
     --text-primary: #0f172a;
-    --text-secondary: #475569;
+    --text-secondary: #334155;
     --text-muted: #64748b;
 
     --primary: #4f46e5;
@@ -129,10 +131,11 @@ body {
     right: 0;
     z-index: 1000;
     padding: 1rem 0;
-    background: rgba(11, 15, 25, 0.75);
+    background: var(--nav-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     transition: var(--transition-fast);
 }
 
@@ -178,15 +181,21 @@ body {
     color: var(--text-secondary);
     text-decoration: none;
     font-size: 0.92rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: var(--transition-fast);
     padding: 0.35rem 0.6rem;
     border-radius: var(--radius-sm);
 }
 
 .nav-link:hover, .nav-link.active {
-    color: var(--text-primary);
-    background: rgba(255, 255, 255, 0.05);
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.12);
+}
+
+[data-theme="light"] .nav-link:hover,
+[data-theme="light"] .nav-link.active {
+    color: var(--primary);
+    background: rgba(79, 70, 229, 0.12);
 }
 
 .nav-actions {
