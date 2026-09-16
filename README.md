@@ -13,7 +13,7 @@ A modern, high-performance static web portfolio and interactive digital resume s
 ## 🌟 Key Features
 
 - **🎨 Modern Glassmorphism Design**: High-contrast, responsive UI built with pure Vanilla CSS, dynamic theme tokens, and subtle glassmorphism effects.
-- **🌓 Dark & Light Theme Switcher**: Seamless toggle between sleek dark mode and high-contrast light mode with automatic persistent state.
+- **🌙 Sleek Dark Theme**: Modern dark mode UI with persistent glassmorphism styling and custom CSS tokens.
 - **🧪 Interactive AI Code Sandbox**: In-browser simulator showcasing AI Developer Assistant workflows for bug analysis, architecture design, and unit test generation.
 - **💼 Enterprise Projects Showcase**: Detailed filterable breakdown across Telecommunications, OTT Media, IoT Wearables, Smart Agriculture, and Enterprise Mobility.
 - **📄 Interactive Digital Resume**: Integrated modal viewer formatted for viewing, sharing, and standard PDF printing.
@@ -43,7 +43,7 @@ Resume/
 ├── css/
 │   └── styles.css          # Core CSS design system tokens and layout styles
 ├── js/
-│   └── app.js              # Theme switcher, project filters, modal & sandbox logic
+│   └── app.js              # Project filters, modal & sandbox logic
 ├── images/
 │   └── jibin-profile.jpg   # Profile picture asset
 ├── index.html              # Main application markup & structured resume content
@@ -59,8 +59,8 @@ No complex build steps or Node.js dependencies required! To view or develop loca
 
 1. **Clone the repository**:
    ```bash
-   git clone git@github.com:jibinmathew/resume-jibinmathew.git
-   cd resume-jibinmathew
+   git clone git@github.com:jibinmathew/jibinmathew-resume.git
+   cd jibinmathew-resume
    ```
 
 2. **Open in browser**:
@@ -79,7 +79,7 @@ No complex build steps or Node.js dependencies required! To view or develop loca
 This project is configured with GitHub Actions to automatically publish updates to GitHub Pages on every push to the `main` branch.
 
 - **Workflow File**: `.github/workflows/deploy.yml`
-- **Pages URL**: `https://jibinmathew.github.io/resume-jibinmathew/`
+- **Pages URL**: `https://jibinmathew.github.io/jibinmathew-resume/`
 
 To push updates:
 ```bash
