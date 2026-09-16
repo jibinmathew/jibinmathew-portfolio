@@ -1,12 +1,12 @@
 # 📱 Jibin Mathew Jose — Senior iOS Developer Portfolio & Resume
 
-[![GitHub Pages Deployment](https://github.com/jibinmathew/jibinmathew-resume/actions/workflows/deploy.yml/badge.svg)](https://github.com/jibinmathew/jibinmathew-resume/actions/workflows/deploy.yml)
-[![Live Site](https://img.shields.io/badge/Live_Site-jibinmathew.github.io-6366f1?style=flat&logo=github)](https://jibinmathew.github.io/jibinmathew-resume/)
+[![GitHub Pages Deployment](https://github.com/jibinmathew/jibinmathew-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jibinmathew/jibinmathew-portfolio/actions/workflows/deploy.yml)
+[![Live Site](https://img.shields.io/badge/Live_Site-jibinmathew.github.io-6366f1?style=flat&logo=github)](https://jibinmathew.github.io/jibinmathew-portfolio/)
 [![Experience](https://img.shields.io/badge/Experience-14%2B%20Years-10b981?style=flat)](#-professional-summary)
 
 A modern, high-performance static web portfolio and interactive digital resume showcasing 14+ years of enterprise iOS application development, technical leadership, modular Swift architecture, and AI developer tooling.
 
-🌐 **Live Website**: [https://jibinmathew.github.io/jibinmathew-resume/](https://jibinmathew.github.io/jibinmathew-resume/)
+🌐 **Live Website**: [https://jibinmathew.github.io/jibinmathew-portfolio/](https://jibinmathew.github.io/jibinmathew-portfolio/)
 
 ---
 
@@ -59,8 +59,8 @@ No complex build steps or Node.js dependencies required! To view or develop loca
 
 1. **Clone the repository**:
    ```bash
-   git clone git@github.com:jibinmathew/jibinmathew-resume.git
-   cd jibinmathew-resume
+   git clone git@github.com:jibinmathew/jibinmathew-portfolio.git
+   cd jibinmathew-portfolio
    ```
 
 2. **Open in browser**:
@@ -79,7 +79,7 @@ No complex build steps or Node.js dependencies required! To view or develop loca
 This project is configured with GitHub Actions to automatically publish updates to GitHub Pages on every push to the `main` branch.
 
 - **Workflow File**: `.github/workflows/deploy.yml`
-- **Pages URL**: `https://jibinmathew.github.io/jibinmathew-resume/`
+- **Pages URL**: `https://jibinmathew.github.io/jibinmathew-portfolio/`
 
 To push updates:
 ```bash
