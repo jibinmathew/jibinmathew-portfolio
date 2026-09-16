@@ -13,22 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* --------------------------------------------------------------------------
-   1. Theme Management (Dark / Light Theme Toggle)
+   1. Theme Management (Default Dark Theme)
    -------------------------------------------------------------------------- */
 function initTheme() {
-    const themeToggleBtn = document.getElementById('theme-toggle');
-    const storedTheme = localStorage.getItem('theme') || 'dark';
-
-    document.documentElement.setAttribute('data-theme', storedTheme);
-
-    if (themeToggleBtn) {
-        themeToggleBtn.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-        });
-    }
+    document.documentElement.setAttribute('data-theme', 'dark');
 }
 
 /* --------------------------------------------------------------------------
